@@ -1,4 +1,5 @@
 import style from './header.module.css';
+import rv from '../../assets/vr4.png'
 
 const Header = () => {
 	return (
@@ -16,6 +17,7 @@ const Header = () => {
 				</p>
 			</div>
 			<div className={style.cards}>
+				<img src={rv} alt=''/>
 			</div>
 
 			<div className='blur1'></div>
