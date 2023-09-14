@@ -1,0 +1,22 @@
+.wrapper {
+    color: var(--white-color);
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.wrapper img {
+    width: 150px;
+    height: 100%;
+    border-radius: 7px;
+    margin-right: 1rem;
+}
+
+.container {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.platform {
+    margin-top: 1.5rem;
+}

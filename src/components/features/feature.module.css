@@ -3,7 +3,7 @@
     display: flex;
     color: var(--white-color);
 
-    margin-bottom: 100rem;
+    margin-bottom: 15rem;
 }
 
 .feature {
@@ -12,12 +12,15 @@
 }
 
 .feature h2 {
+    margin: 0;
+    line-height: 1.5;
     font-size: var(--title-2);
 }
 
 .feature p {
     font-size: var(--text-1);
     color: var(--gray-color);
+    line-height: 1.7;
 }
 
 .container_features {

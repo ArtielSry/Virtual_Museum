@@ -4,7 +4,7 @@
     --text-1: 1.25rem;
     --text-2: 1rem;
 
-    --primary-color: #ff5405;
+    --primary-color: #ffa805;
     --secondary-color:  rgb(68, 45, 24);
     --white-color: #ffffff;
     --black-color: rgba(3, 3, 3, 0.89);
@@ -28,13 +28,13 @@ strong {
     -webkit-text-fill-color: transparent;
 }
 
-.blur1, .blur2 {
+.blur1, .blur2, .blur3 {
     z-index: -1;
     position: absolute;
     width: 20rem;
     height: 20rem;
     background: rgb(68,24,43);
-    background: radial-gradient(circle, rgb(68, 45, 24) 0%, rgba(255,249,249,0) 64%);
+    background: radial-gradient(circle, rgb(68, 54, 24) 0%, rgba(255,249,249,0) 64%);
 }
 
 .blur1 {
@@ -47,4 +47,11 @@ strong {
     height: 50rem;
     top: 17rem;
     right: 0;
+}
+
+.blur3 {
+    width: 100rem;
+    height: 100rem;
+    top: 700px;
+    left: -700px;
 }
