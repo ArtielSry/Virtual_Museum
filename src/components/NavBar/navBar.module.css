@@ -1,0 +1,18 @@
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    color: var(--white-color);
+}
+
+.nav_ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav_ul li {
+    font-size: var(--text-2);
+    margin-right: 3.5rem;
+    font-weight: lighter;
+}
