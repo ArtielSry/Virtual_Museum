@@ -10,13 +10,13 @@ The chosen coding challenge is:
 
 Before you begin, ensure you have met the following requirements:
 
-- Node.js: [Link to download page]
-- npm: [Link to download page]
-- Yarn (optional): [Link to download page]
+- Node.js
+- npm
+- Yarn (optional)
 
 ## Instalation
 
-1. Clone the repository using: 
+1. Clone the repository using in your terminal: 
     git clone https://github.com/ArtielSry/ModernReactUX-UI.git
 
 2. npm install
