@@ -9,3 +9,7 @@
     border-radius: 10px;
     cursor: pointer;
 }
+
+.button:hover {
+    background-color: var(--primary-color-hover);
+}

@@ -1,19 +1,14 @@
-import style from './InfoNumber.module.css'
+import style from './InfoNumber.module.css';
+import RowInfoNumbers from './RowInfoNumbers';
 
 const InfoNumber = () => {
-  return (
-    <section className={style.wrapper}>
-        <div>
-            <h3>4500+ <strong>ACTIVE USERS</strong></h3>
-        </div>
-        <div>
-            <h3>500+ <strong>WORK OF ART</strong></h3>
-        </div>
-        <div>
-            <h3>200+ <strong>MUSEUMS</strong></h3>
-        </div>
-    </section>
-  )
-}
+	return (
+		<section className={style.wrapper}>
+			<RowInfoNumbers text='USERS' />
+			<RowInfoNumbers text='ARTS' />
+			<RowInfoNumbers text='MUSEUMS' />
+		</section>
+	);
+};
 
-export default InfoNumber
+export default InfoNumber;

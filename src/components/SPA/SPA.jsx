@@ -3,15 +3,17 @@ import InfoNumber from '../InfoNumber/InfoNumber';
 import NavBar from '../NavBar/NavBar';
 import Feature from '../features/Feature';
 import FeatureDownload from '../features/FeatureDownload';
+import Footer from '../footer/Footer';
 
 const SPA = () => {
 	return (
-		<main>
+		<main className='mainContainer'>
 			<NavBar />
 			<Header />
-			<InfoNumber />
-			<Feature />
-			<FeatureDownload />
+			<InfoNumber/>
+			<Feature/>
+			<FeatureDownload/>
+			<Footer />
 		</main>
 	);
 };

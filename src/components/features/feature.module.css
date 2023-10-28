@@ -1,9 +1,8 @@
 .wrapper {
-    margin-top: 10rem;
+    padding: 10% 0;
     display: flex;
     color: var(--white-color);
-
-    margin-bottom: 15rem;
+    width: 100%;
 }
 
 .feature {
@@ -45,10 +44,53 @@
 }
 
 svg {
-    color: var(--primary-color);
-    background-color: var(--white-color);
+    color: var(--black-color);
+    background-color: var(--primary-color);
     border-radius: 50px;
     width: 50px;
     height: 50px;
     padding: 10px;
 }
+
+
+@media screen and (min-width: 1400px) {
+    .container_features button {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 1400px) {
+    .wrapper {
+        flex-direction: column;
+    }
+    .feature {
+        margin-right: 0rem;
+        flex: 1;
+    }
+    .feature button {
+        display: none;
+    }
+    .container_features button {
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width: 950px) {
+    .feature {
+        margin-right: 0rem;
+        flex: 1;
+    }
+    .container_features button {
+        width: 100%;
+        padding: 0.75rem;
+        font-size: 1rem;
+    }
+    .container_features p {
+        line-height: 25px;
+        font-size: 0.75rem !important;
+    }
+}
+
+

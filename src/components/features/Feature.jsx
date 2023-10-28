@@ -8,8 +8,8 @@ import style from './feature.module.css';
 
 const Feature = () => {
 	return (
-		<section className={style.wrapper}>
-			<div className={style.feature}>
+		<section  id='about' className={`${style.wrapper} wrapper`}>
+			<div className={`${style.feature} show`}>
 				<TextFeature
 					title={`Inspiration and genius are almost the same thing.`}
 					text={`Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit a
@@ -19,7 +19,7 @@ const Feature = () => {
 
 				<Button text={`Get started`} />
 			</div>
-			<div className={style.container_features}>
+			<div className={`${style.container_features} show` }>
 				<RowFeature
 					icon={Icon360}
 					title={`Visit museums at 360º`}
@@ -38,6 +38,8 @@ const Feature = () => {
 					text={`Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure
 						necessitatibus recusandae, sed`}
 				/>
+
+				<Button text={`Get started`} />
 			</div>
 		</section>
 	);

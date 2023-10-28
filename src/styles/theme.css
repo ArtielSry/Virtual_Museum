@@ -1,14 +1,18 @@
+/* constant themes */
+
 :root {
-    --title-1: 4.5rem;
-    --title-2: 3rem;
-    --text-1: 1.25rem;
+    --title-1: 4rem;
+    --title-2: 2rem;
+    --text-1: 1.2rem;
     --text-2: 1rem;
 
-    --primary-color: #ffa805;
+    --primary-color: #8ed4f0;
+    --primary-color-hover: #6c96a7;
     --secondary-color:  rgb(68, 45, 24);
     --white-color: #ffffff;
-    --black-color: rgba(3, 3, 3, 0.89);
+    --black-color: rgb(20, 20, 20);
     --gray-color: rgba(255, 255, 255, 0.699);
+    --grayDark-color: rgb(71, 71, 71);
 
     --text-light: 200;
     --text-md: 300;
@@ -19,39 +23,41 @@
 }
 
 body {
-    background-color: var(--black-color);
+    background: rgb(0,0,0);
+    background: linear-gradient(270deg, rgba(0,0,0,0) 74%, rgba(142,212,240,0.05646008403361347) 100%);
+    background-color: var(--black-color) !important;
+    
+    
 }
 
 strong {
     background: var(--text-gradient);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.blur1, .blur2, .blur3 {
-    z-index: -1;
-    position: absolute;
-    width: 20rem;
-    height: 20rem;
-    background: rgb(68,24,43);
-    background: radial-gradient(circle, rgb(68, 54, 24) 0%, rgba(255,249,249,0) 64%);
+/* animation in scroll */
+
+@keyframes show {
+    from {
+        opacity: 0;
+        scale: 0%;
+    }
+
+    to {
+        opacity: 1;
+        scale: 100%;
+    }
 }
 
-.blur1 {
-    top: 0;
-    left: 0;
-}
+.show {
+    view-timeline-name: --image;
+    view-timeline-axis: block;
+    animation-timeline: --image;
+    animation-name: show;
 
-.blur2 {
-    width: 50rem;
-    height: 50rem;
-    top: 17rem;
-    right: 0;
-}
+    animation-range: entry 25% cover 45%;
 
-.blur3 {
-    width: 100rem;
-    height: 100rem;
-    top: 700px;
-    left: -700px;
+    animation-fill-mode: both;
 }

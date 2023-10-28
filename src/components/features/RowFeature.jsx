@@ -5,7 +5,7 @@ const RowFeature = ({ icon: Icon, title, text }) => {
 		<div className={style.wrapper}>
 			<div className={style.icon}>{<Icon />}</div>
 			<div>
-				<h2>{title}</h2>
+				<h3>{title}</h3>
 				<p>{text}</p>
 			</div>
 		</div>

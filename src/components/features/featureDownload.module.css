@@ -1,12 +1,13 @@
 .wrapper {
-    color: var(--white-color);
+    padding: 10% 0;
     display: flex;
+    color: var(--white-color);
+    width: 100%;
     flex-direction: row-reverse;
 }
 
-.wrapper img {
+.platform img {
     width: 150px;
-    height: 100%;
     border-radius: 7px;
     margin-right: 1rem;
 }
@@ -19,4 +20,34 @@
 
 .platform {
     margin-top: 1.5rem;
+    flex: 1;
+}
+
+.platform img {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1400px) {
+    .wrapper {
+        flex-direction: column;    
+        margin: 5% 0;
+        text-align: left;
+    }
+    .container {
+        margin-bottom: 1.25rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .platform {
+        flex-direction: row;    
+        margin: 5% 0;
+        display: flex;
+    }
+}
+
+@media screen and (max-width: 285px) {
+    .platform img {
+        width: 100px;
+    }
 }

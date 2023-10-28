@@ -1,5 +1,7 @@
 import style from './feature.module.css';
 
+/* reusable component */
+
 const TextFeature = ({ title, text, ...props }) => {
 	return (
 		<div className={style.feature}>

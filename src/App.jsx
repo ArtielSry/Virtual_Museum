@@ -1,4 +1,4 @@
-import './App.css';
+import './styles/App.css';
 import './styles/theme.css'
 import SPA from './components/SPA/SPA';
 

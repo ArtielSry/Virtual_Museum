@@ -7,13 +7,13 @@ import google from '../../assets/google.jpg';
 
 const FeatureDownload = () => {
 	return (
-		<div className={style.wrapper}>
-			<div className={style.container}>
+		<div className={`${style.wrapper} wrapper`} id='features'>
+			<div className={`${style.container} show`}>
 				<TextFeature
 					title={`Easy download on Google Play and Apple Store`}
 					text={`Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit a maiores magni, optio, corrupti officia error sit aperiam atque architecto.`}
 				/>
-				<div className={style.platform}>
+				<div className={`${style.platform} show`}>
 					<img src={apple} alt='appleStore' />
 					<img src={google} alt='google play' />
 				</div>
