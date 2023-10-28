@@ -1,8 +1,23 @@
-# React + Vite
+# Sailrs - Coding Challenge
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Desctription
 
-Currently, two official plugins are available:
+The chosen coding challenge is: 
+    - Build a Responsive Onepage Website:
+    Create a website that is responsive and adapts to different screen sizes. This will test your understanding of CSS media queries and responsive design principles.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Prerequisites
+
+Before you begin, ensure you have met the following requirements:
+
+- Node.js: [Link to download page]
+- npm: [Link to download page]
+- Yarn (optional): [Link to download page]
+
+## Instalation
+
+1. Clone the repository using: 
+    git clone https://github.com/ArtielSry/ModernReactUX-UI.git
+
+2. npm install
+3. npm run dev
