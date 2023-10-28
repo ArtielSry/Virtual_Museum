@@ -17,7 +17,7 @@ Before you begin, ensure you have met the following requirements:
 ## Instalation
 
 1. Clone the repository using in your terminal: 
-    git clone https://github.com/ArtielSry/ModernReactUX-UI.git
+    git clone https://github.com/ArtielSry/Sailrs_CodingChallenge.git
 
 2. npm install
 3. npm run dev
