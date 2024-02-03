@@ -14,7 +14,7 @@ const Feature = () => {
 					title={`Inspiration and genius are almost the same thing.`}
 					text={`Lorem ipsum, dolor sit amet consectetur adipisicing elit. Impedit a
 					maiores magni, optio, corrupti officia error sit aperiam atque
-					architecto.`}
+					architecto.`}   
 				/>
 
 				<Button text={`Get started`} />
@@ -43,6 +43,6 @@ const Feature = () => {
 			</div>
 		</section>
 	);
-};
+}
 
 export default Feature;
