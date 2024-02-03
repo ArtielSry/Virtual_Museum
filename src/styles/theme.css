@@ -26,8 +26,6 @@ body {
     background: rgb(0,0,0);
     background: linear-gradient(270deg, rgba(0,0,0,0) 74%, rgba(142,212,240,0.05646008403361347) 100%);
     background-color: var(--black-color) !important;
-    
-    
 }
 
 strong {
