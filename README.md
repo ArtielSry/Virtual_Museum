@@ -1,9 +1,7 @@
-# Sailrs - Coding Challenge
+# VIRTUAL MUSEUM
 
-## Desctription
+## TASK
 
-The chosen coding challenge is: 
-    - Build a Responsive Onepage Website:
     Create a website that is responsive and adapts to different screen sizes. This will test your understanding of CSS media queries and responsive design principles.
 
 ## Prerequisites
